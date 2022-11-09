@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 WORKDIR /usr/src/app
 
-COPY index.html ./
+COPY index ./
 
 COPY . .
 
