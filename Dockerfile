@@ -7,4 +7,4 @@ COPY index ./
 COPY . .
 
 EXPOSE 3000
-CMD [ "ubuntu", "index.html" ]
+CMD [ "ubuntu", "index" ]
