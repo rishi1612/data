@@ -1,8 +1,8 @@
-FROM tomcat
+FROM ubuntu
 
 WORKDIR /usr/src/app
 
 COPY index ./
 
 EXPOSE 3000
-CMD [ "tomcat", "index" ]
+CMD [ "index" ]
